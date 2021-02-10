@@ -14,7 +14,7 @@ describe('Print the numbers', () => {
     it('Error scenario, if the argument is not array', () => {
         console.log = jest.fn();
         utils.printNumbers(1);
-        expect(console.log).toHaveBeenCalledWith("Not a valid aghument");
+        expect(console.log).toHaveBeenCalledWith("Not a valid argument");
     });
 });
 
